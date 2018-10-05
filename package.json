@@ -9,7 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.production.config.js --progress --profile --colors",
     "dev": "babel-node server.js",
     "lint": "eslint js/**",
-    "start": "node server.production",
+    "start": "node server",
     "postinstall": "npm run build"
   },
   "dependencies": {
@@ -27,7 +27,7 @@
     "copy-webpack-plugin": "^3.0.1",
     "cross-env": "^2.0.1",
     "css-loader": "^0.24.0",
-    "ejs": "2.4.1",
+    "ejs": "2.5.5",
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.14.0",
